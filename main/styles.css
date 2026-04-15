@@ -744,6 +744,7 @@ section {
     color: var(--secondary-color);
     margin-bottom: 11px;
     white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .member-one {
