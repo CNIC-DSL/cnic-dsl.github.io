@@ -743,7 +743,7 @@ section {
     font-weight: 700;
     color: var(--secondary-color);
     margin-bottom: 11px;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .member-one {
