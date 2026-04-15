@@ -739,7 +739,7 @@ section {
 }
 
 .member-name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--secondary-color);
     margin-bottom: 11px;
@@ -748,14 +748,14 @@ section {
 }
 
 .member-one {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--secondary-color);
     margin-bottom: 18px;
 }
 
 .member-title {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--primary-color);
     margin-bottom: 12px;
 }
