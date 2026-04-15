@@ -740,7 +740,7 @@ section {
 
 .member-name {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--secondary-color);
     margin-bottom: 11px;
     white-space: normal;
@@ -749,7 +749,7 @@ section {
 
 .member-one {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--secondary-color);
     margin-bottom: 18px;
 }
