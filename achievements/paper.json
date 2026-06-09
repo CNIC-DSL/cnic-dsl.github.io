@@ -1,0 +1,184 @@
+[
+  {
+    "authors": "Meng Xiao, Weiliang Zhang, Xiaohan Huang, Hengshu Zhu, Min Wu, Xiaoli Li, Yuanchun Zhou",
+    "title": "Knowledge-Guided Gene Panel Selection for Label-Free Single-Cell RNA-Seq Data： A Reinforcement Learning Perspective",
+    "venue": "IEEE Transactions on Computational Biology and Bioinformatics",
+    "year": 2025,
+    "pdf": "PDF/Knowledge-Guided Gene Panel Selection for Label-Free Single-Cell RNA-Seq Data： A Reinforcement Learning Perspective.pdf"
+  },
+  {
+    "authors": "Chuan Qin, Le Zhang, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong",
+    "title": "A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics",
+    "venue": "In Proceedings of the IEEE (PIEEE), 2025",
+    "year": 2025,
+    "pdf": "PDF/A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics.pdf"
+  },
+  {
+    "authors": "Yingpeng Du, Hongzhi Liu, Hengshu Zhu, Yang Song, Zhi Zheng, Zhonghai Wu",
+    "title": "Quasi-Metric Learning for Bilateral Person-Job Fit",
+    "venue": "In IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2025",
+    "year": 2025,
+    "pdf": "PDF/Quasi-Metric Learning for Bilateral Person-Job Fit.pdf"
+  },
+  {
+    "authors": "Chuan Qin, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu",
+    "title": "SciHorizon: Benchmarking AI-for-Science Readiness from Scientific Data to Large Language Models",
+    "venue": "In Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2025), 2025",
+    "year": 2025,
+    "pdf": "PDF/SciHorizon-Benchmarking AI-for-Science Readiness from Scientific Data to Large Language Models.pdf"
+  },
+  {
+    "authors": "Zhenyu Tong, Chuan Qin, Chuyu Fang, Kaichun Yao, Xi Chen, Jingshuai Zhang, Chen Zhu, Hengshu Zhu",
+    "title": "From Missteps to Mastery: Enhancing Low-Resource Dense Retrieval through Adaptive Query Generation",
+    "venue": "In Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Xiao Han, Chen Zhu, Xiangyu Zhao, Hengshu Zhu",
+    "title": "Swarm Intelligence in Geo-Localization: A Multi-Agent Large Vision-Language Model Collaborative Framework",
+    "venue": "In Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Tianqi He, Xiaohan Huang, Yi Du, Qingqing Long, Ziyue Qiao, Min Wu, Yanjie Fu, Yuanchun Zhou, Meng Xiao",
+    "title": "FastFT: Accelerating Reinforced Feature Transformation via Advanced Exploration Strategies",
+    "venue": "The 41st IEEE International Conference on Data Engineering (ICDE-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Ziyue Qiao, Qianyi Cai, Hao Dong, Jiawei Gu, Pengyang Wang, Meng Xiao, Xiao Luo, Hui Xiong",
+    "title": "GCAL: Adapting Graph Models to Evolving Domain Shifts",
+    "venue": "In Proceedings of the 42nd International Conference on Machine Learning (ICML-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Zhigaoyuan Wang, Ying Sun, Hengshu Zhu",
+    "title": "Unifying Knowledge from Diverse Datasets to Enhance Spatial-Temporal Modeling: A Granularity-Adaptive Geographical Embedding Approach",
+    "venue": "In Proceedings of the 42nd International Conference on Machine Learning (ICML-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Yaming Guo, Siyang Guo, Ying Sun, Hengshu Zhu",
+    "title": "Towards Lifelong Model Editing via Simulating Ideal Editor",
+    "venue": "In Proceedings of the 42nd International Conference on Machine Learning (ICML-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Jinhao Jiang, Kun Zhou, Xin Zhao, Yang Song, Chen Zhu, Hengshu Zhu, Jirong Wen",
+    "title": "KG-Agent: An Efficient Autonomous Agent Framework for Complex Reasoning over Knowledge Graph",
+    "venue": "In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Yumeng Hu, Qi Zhang, Hengshu Zhu, Baoshan Wang, Hui Xiong, Haitao Wang",
+    "title": "Scalable intermediate-term earthquake forecasting with multimodal fusion neural networks",
+    "venue": "In Scientific Reports, 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Yihang Cheng, Zhaoqi Yang, Yuan Cheng, Yong Ge, Hengshu Zhu",
+    "title": "Evolutionary Modeling Reveals that Value-oriented Knowledge Creation Behaviors Reinvent Jobs",
+    "venue": "In Humanities & Social Sciences Communications (HSSC), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Chuan Qin, Chuyu Fang, Kaichun Yao, Xi Chen, Fuzhen Zhuang, Hengshu Zhu",
+    "title": "COTR: Efficient Job Task Recognition for Occupational Information Systems with Class-Incremental Learning",
+    "venue": "In ACM Transactions on Management Information Systems (ACM TMIS), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Han Wu, Le Zhang, Hengshu Zhu, Qi Liu, Enhong Chen, Hui Xiong",
+    "title": "Examination Process Modeling for Intelligent Patent Management: A Multi-aspect Neural Sequential Approach",
+    "venue": "In ACM Transactions on Management Information Systems (ACM TMIS), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Haiping Ma, Manwei Li, Chuan Qin, Dazhong Shen, Hengshu Zhu, Xingyi Zhang, Hui Xiong",
+    "title": "Joint Ability Assessment for Talent Recruitment: A Neural Cognitive Diagnosis Approach",
+    "venue": "In ACM Transactions on Management Information Systems (ACM TMIS), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Ying Sun, Hengshu Zhu, Hui Xiong",
+    "title": "Towards Faithful Neural Network Intrinsic Interpretation with Shapley Additive Self-Attribution",
+    "venue": "In IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Ying Sun, Hengshu Zhu, Hui Xiong",
+    "title": "Does More Informative Job Title Lead to More Successful Hirings? A Randomized Field Experiment on an Online Labor Market Platform",
+    "venue": "In IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Yihang Cheng, Xiao Hu, Chen Zhu, Hengshu Zhu",
+    "title": "Does More Informative Job Title Lead to More Successful Hirings? A Randomized Field Experiment on an Online Labor Market Platform",
+    "venue": "In Proceedings of the 58th Hawaii International Conference on System Sciences (HICSS-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Xi Chen, Chuan Qin, Chuyu Fang, Chao Wang, Chen Zhu, Fuzhen Zhuang, Hengshu Zhu, Hui Xiong",
+    "title": "Job-SDF: A Multi-Granularity Dataset for Job Skill Demand Forecasting and Benchmarking",
+    "venue": "In Proceedings of Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS-2024), 2024",
+    "year": 2024,
+    "pdf": ""
+  },
+  {
+    "authors": "Xi Chen, Chuan Qin, Chuyu Fang, Chao Wang, Chen Zhu, Fuzhen Zhuang, Hengshu Zhu, Hui Xiong",
+    "title": "OT4P: Unlocking Effective Orthogonal Group Path for Permutation Relaxation",
+    "venue": "In Proceedings of Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS-2024), 2024",
+    "year": 2024,
+    "pdf": ""
+  },
+  {
+    "authors": "Yaming Guo, Chen Zhu, Hengshu Zhu, Tieru Wu",
+    "title": "OT4P: Unlocking Effective Orthogonal Group Path for Permutation Relaxation",
+    "venue": "In Proceedings of Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS-2024), 2024",
+    "year": 2024,
+    "pdf": ""
+  },
+  {
+    "authors": "Qi Liu, Zheng Gong, Zhenya Huang, Chuanren Liu, Hengshu Zhu, Zhi Li, Enhong Chen, Hui Xiong",
+    "title": "Multi-dimensional ability diagnosis for machine learning algorithms",
+    "venue": "In SCIENCE CHINA: Information Sciences, 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Xunxin Cai, Chengrui Wang, Qingqing Long, Yuanchun Zhou, Meng Xiao",
+    "title": "Knowledge Hierarchy Guided Biological-Medical Dataset Distillation for Domain LLM Training",
+    "venue": "In Proceedings of 30th International Conference on Database Systems for Advanced Applications (DASFAA-2025), 2025",
+    "year": 2025,
+    "pdf": ""
+  },
+  {
+    "authors": "Qingqing Long, Zheng Fang, Chen Fang, Chong Chen, Pengfei Wang, Yuanchun Zhou",
+    "title": "Unveiling delay effects in traffic forecasting: a perspective from spatial-temporal delay differential equations",
+    "venue": "In Proceedings of the ACM Web Conference 2024 (WWW-2024), 2024",
+    "year": 2024,
+    "pdf": ""
+  },
+  {
+    "authors": "Yuchen Yan, Peiyan Zhang, Zheng Fang, Qingqing Long",
+    "title": "Inductive graph alignment prompt: bridging the gap between graph pre-training and inductive fine-tuning from spectral perspective",
+    "venue": "In Proceedings of the ACM Web Conference 2024 (WWW-2024), 2024",
+    "year": 2024,
+    "pdf": ""
+  }
+]
