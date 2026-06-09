@@ -49,7 +49,7 @@ function loadPapers() {
   const panel = document.getElementById('papers');
   if (!panel) return;
 
-  fetch('data/papers.json')
+  fetch('achievements/papers.json')
     .then(res => res.json())
     .then(papers => {
       const html = papers.map(paper => {
