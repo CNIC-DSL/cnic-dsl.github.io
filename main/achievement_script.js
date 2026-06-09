@@ -1,5 +1,6 @@
 // ========== 成果页面 Tabs 切换（按 section 作用域绑定，避免和首页旧 tab 冲突） ==========
 document.addEventListener('DOMContentLoaded', function () {
+  // Tab 切换逻辑
   document.querySelectorAll('.achievements-sections, #achievements').forEach(section => {
     const tabs = section.querySelectorAll('.subtabs .tab');
     const panels = section.querySelectorAll('.tab-panel');
@@ -13,15 +14,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
         tab.classList.add('active');
 
-        const target = tab.dataset.tab;     // 如 "papers"
-        const panel = section.querySelector('#' + CSS.escape(target)); // 只在本 section 内找
+        const target = tab.dataset.tab;
+        const panel = section.querySelector('#' + CSS.escape(target));
         if (panel) panel.classList.add('active');
       });
     });
   });
 
-  const backToTopBtn = document.getElementById('backToTop');
+  // 加载论文数据
+  loadPapers();
 
+  // 回到顶部按钮
+  const backToTopBtn = document.getElementById('backToTop');
   if (backToTopBtn) {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 300) {
@@ -39,3 +43,36 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
+// ========== 从 JSON 加载并渲染论文列表 ==========
+function loadPapers() {
+  const panel = document.getElementById('papers');
+  if (!panel) return;
+
+  fetch('data/papers.json')
+    .then(res => res.json())
+    .then(papers => {
+      const html = papers.map(paper => {
+        const pdfLink = paper.pdf
+          ? `<span class="divider">|</span><a class="action download" href="${paper.pdf}">下载</a>`
+          : '';
+        return `
+          <div class="list-item">
+            <div class="item-main">
+              <div class="authors">${paper.authors}</div>
+              <div class="title">${paper.title}</div>
+              <div class="meta">${paper.venue}</div>
+            </div>
+            <div class="item-actions">
+              ${pdfLink}
+            </div>
+          </div>`;
+      }).join('');
+
+      panel.insertAdjacentHTML('beforeend', html);
+    })
+    .catch(err => {
+      console.error('加载论文数据失败:', err);
+      panel.insertAdjacentHTML('beforeend', '<p style="padding:1rem;color:#999;">论文数据加载失败，请稍后刷新</p>');
+    });
+}
