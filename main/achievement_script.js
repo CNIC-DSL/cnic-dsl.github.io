@@ -52,6 +52,9 @@ function loadPapers() {
   fetch('achievements/paper.json')
     .then(res => res.json())
     .then(papers => {
+      // 按年份降序排列，最新论文排在前面
+      papers.sort((a, b) => b.year - a.year);
+
       const html = papers.map(paper => {
         const pdfLink = paper.pdf
           ? `<span class="divider">|</span><a class="action download" href="${paper.pdf}">下载</a>`
