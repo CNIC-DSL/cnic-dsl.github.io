@@ -57,14 +57,17 @@ function loadPapers() {
 
       const html = papers.map(paper => {
         const pdfLink = paper.pdf
-          ? `<span class="divider">|</span><a class="action download" href="${paper.pdf}">下载</a>`
+          ? `<span class="divider">|</span><a class="action download" href="${paper.pdf}" target="_blank" rel="noopener noreferrer">下载</a>`
+          : `<span class="divider">|</span><span class="action download disabled">下载</span>`;
+        const ccfLabel = paper.ccf
+          ? `<span class="ccf-tag ccf-${paper.ccf.toLowerCase()}">CCF-${paper.ccf}</span>`
           : '';
         return `
           <div class="list-item">
             <div class="item-main">
               <div class="authors">${paper.authors}</div>
               <div class="title">${paper.title}</div>
-              <div class="meta">${paper.venue}</div>
+              <div class="meta">${paper.venue}${ccfLabel}</div>
             </div>
             <div class="item-actions">
               ${pdfLink}
