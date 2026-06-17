@@ -5,6 +5,7 @@
     "venue": "IEEE Transactions on Computational Biology and Bioinformatics, 2025",
     "year": 2025,
     "pdf": "PDF/Knowledge-Guided Gene Panel Selection for Label-Free Single-Cell RNA-Seq Data： A Reinforcement Learning Perspective.pdf",
+    "link": "https://ieeexplore.ieee.org/document/11164312",
     "ccf": "B"
   },
   {
@@ -13,6 +14,7 @@
     "venue": "In Proceedings of the IEEE (PIEEE), 2025",
     "year": 2025,
     "pdf": "PDF/A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics.pdf",
+    "link": "https://ieeexplore.ieee.org/document/11027075",
     "ccf": "A"
   },
   {
@@ -21,6 +23,7 @@
     "venue": "In IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2025",
     "year": 2025,
     "pdf": "PDF/Quasi-Metric Learning for Bilateral Person-Job Fit.pdf",
+    "link": "https://ieeexplore.ieee.org/document/10870255",
     "ccf": "A"
   },
   {
@@ -29,6 +32,7 @@
     "venue": "In Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2025",
     "year": 2025,
     "pdf": "PDF/SciHorizon-Benchmarking AI-for-Science Readiness from Scientific Data to Large Language Models.pdf",
+    "link": "https://dl.acm.org/doi/10.1145/3711896.3737403",
     "ccf": "A"
   },
   {
@@ -37,6 +41,7 @@
     "venue": "In Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://dl.acm.org/doi/10.1145/3690624.3709225",
     "ccf": "A"
   },
   {
@@ -45,6 +50,7 @@
     "venue": "In Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://dl.acm.org/doi/10.1145/3711896.3737141",
     "ccf": "A"
   },
   {
@@ -53,6 +59,7 @@
     "venue": "The 41st IEEE International Conference on Data Engineering (ICDE), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://www.computer.org/csdl/proceedings-article/icde/2025/360300e120/26FZCkB8Sn6",
     "ccf": "A"
   },
   {
@@ -61,6 +68,7 @@
     "venue": "In Proceedings of the 42nd International Conference on Machine Learning (ICML), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://proceedings.mlr.press/v267/qiao25a.html",
     "ccf": "A"
   },
   {
@@ -69,6 +77,7 @@
     "venue": "In Proceedings of the 42nd International Conference on Machine Learning (ICML), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://icml.cc/virtual/2025/poster/43731",
     "ccf": "A"
   },
   {
@@ -77,6 +86,7 @@
     "venue": "In Proceedings of the 42nd International Conference on Machine Learning (ICML), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://proceedings.mlr.press/v267/guo25c.html",
     "ccf": "A"
   },
   {
@@ -85,6 +95,7 @@
     "venue": "In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://aclanthology.org/2025.acl-long.468/",
     "ccf": "A"
   },
   {
@@ -93,6 +104,7 @@
     "venue": "In Scientific Reports, 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://www.nature.com/articles/s41598-025-93877-7",
     "ccf": ""
   },
   {
@@ -101,6 +113,7 @@
     "venue": "In Humanities & Social Sciences Communications (HSSC), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://www.nature.com/articles/s41599-025-04706-1",
     "ccf": ""
   },
   {
@@ -109,6 +122,7 @@
     "venue": "In ACM Transactions on Management Information Systems (ACM TMIS), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://dl.acm.org/doi/10.1145/3712306",
     "ccf": ""
   },
   {
@@ -117,6 +131,7 @@
     "venue": "In ACM Transactions on Management Information Systems (ACM TMIS), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://dl.acm.org/doi/10.1145/3712309",
     "ccf": ""
   },
   {
@@ -125,6 +140,7 @@
     "venue": "In ACM Transactions on Management Information Systems (ACM TMIS), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://dl.acm.org/doi/10.1145/3714414",
     "ccf": ""
   },
   {
@@ -133,6 +149,7 @@
     "venue": "In IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://ieeexplore.ieee.org/document/11017703",
     "ccf": "B"
   },
   {
@@ -141,6 +158,7 @@
     "venue": "In IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "",
     "ccf": "B"
   },
   {
@@ -149,6 +167,7 @@
     "venue": "In Proceedings of the 58th Hawaii International Conference on System Sciences (HICSS), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://scholarspace.manoa.hawaii.edu/items/d25d0265-bd32-4378-a287-823bf181c6d4",
     "ccf": ""
   },
   {
@@ -157,6 +176,7 @@
     "venue": "In Proceedings of Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024",
     "year": 2024,
     "pdf": "",
+    "link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e997325c6f4045aa646c81e674076297-Abstract-Datasets_and_Benchmarks_Track.html",
     "ccf": "A"
   },
   {
@@ -165,6 +185,7 @@
     "venue": "In Proceedings of Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024",
     "year": 2024,
     "pdf": "",
+    "link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d3ee2816ae19c9e689c3352397c93a22-Abstract-Conference.html",
     "ccf": "A"
   },
   {
@@ -173,6 +194,7 @@
     "venue": "In Proceedings of Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024",
     "year": 2024,
     "pdf": "",
+    "link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d3ee2816ae19c9e689c3352397c93a22-Abstract-Conference.html",
     "ccf": "A"
   },
   {
@@ -181,6 +203,7 @@
     "venue": "In SCIENCE CHINA: Information Sciences, 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://link.springer.com/article/10.1007/s11432-023-4239-4",
     "ccf": "A"
   },
   {
@@ -189,6 +212,7 @@
     "venue": "In Proceedings of 30th International Conference on Database Systems for Advanced Applications (DASFAA), 2025",
     "year": 2025,
     "pdf": "",
+    "link": "https://arxiv.org/abs/2501.15108",
     "ccf": "B"
   },
   {
@@ -197,6 +221,7 @@
     "venue": "In Proceedings of the ACM Web Conference 2024 (WWW), 2024",
     "year": 2024,
     "pdf": "",
+    "link": "https://dl.acm.org/doi/10.1145/3589334.3645688",
     "ccf": "A"
   },
   {
@@ -205,6 +230,7 @@
     "venue": "In Proceedings of the ACM Web Conference 2024 (WWW), 2024",
     "year": 2024,
     "pdf": "",
+    "link": "https://arxiv.org/abs/2402.13556",
     "ccf": "A"
   },
   {
@@ -213,6 +239,7 @@
     "venue": "Proceedings of the 32nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2026",
     "year": 2026,
     "pdf": "PDF/SciHorizon-DataEVA-An Agentic System to Scalable AI-Readiness Evaluation of Heterogeneous Scientific Data.pdf",
+    "link": "https://arxiv.org/abs/2604.26645",
     "ccf": "A"
   },
   {
@@ -221,6 +248,7 @@
     "venue": "Proceedings of the 32nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2026",
     "year": 2026,
     "pdf": "PDF/ScienceDB AI-An LLM-Driven Agentic Recommender System for Large-Scale Scientific Data Sharing Services.pdf",
+    "link": "https://arxiv.org/abs/2601.01118",
     "ccf": "A"
   },
   {
@@ -229,6 +257,7 @@
     "venue": "Proceedings of the 32nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2026",
     "year": 2026,
     "pdf": "PDF/MobilityBench-A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios.pdf",
+    "link": "https://arxiv.org/abs/2602.22638",
     "ccf": "A"
   },
   {
@@ -237,6 +266,7 @@
     "venue": "Proceedings of the 32nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2026",
     "year": 2026,
     "pdf": "PDF/SciHorizon-GENE-Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding.pdf",
+    "link": "https://arxiv.org/abs/2601.12805",
     "ccf": "A"
   },
   {
@@ -245,6 +275,7 @@
     "venue": "Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI), 2026",
     "year": 2026,
     "pdf": "PDF/A Survey on Value Alignment in Agentic AI Systems.pdf",
+    "link": "https://arxiv.org/abs/2506.09656",
     "ccf": "B"
   },
   {
@@ -253,6 +284,7 @@
     "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings), 2026",
     "year": 2026,
     "pdf": "",
+    "link": "",
     "ccf": "A"
   },
   {
@@ -261,6 +293,7 @@
     "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL), 2026",
     "year": 2026,
     "pdf": "",
+    "link": "",
     "ccf": "A"
   },
   {
@@ -269,6 +302,7 @@
     "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL), 2026",
     "year": 2026,
     "pdf": "",
+    "link": "",
     "ccf": "A"
   },
   {
@@ -277,6 +311,7 @@
     "venue": "Proceedings of The Fourteenth International Conference on Learning Representations (ICLR), 2026",
     "year": 2026,
     "pdf": "PDF/Beyond the Known- An Unknown-Aware Large Language Model for Open-Set Text Classification.pdf",
+    "link": "https://openreview.net/forum?id=BqLGlQF46f",
     "ccf": "A"
   },
   {
@@ -285,6 +320,7 @@
     "venue": "Geophysical Research Letters (GRL), 2026",
     "year": 2026,
     "pdf": "PDF/Decoupling Seasonal Seismic Velocity Changes on Slow-Moving Slopes in Southwest China Using Tree Ensemble Machine Learning.pdf",
+    "link": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL121238",
     "ccf": ""
   },
   {
@@ -293,6 +329,7 @@
     "venue": "ACM Transactions on Management Information Systems (ACM TMIS), 2026",
     "year": 2026,
     "pdf": "PDF/LLM-enhanced Career Knowledge Graph Understanding for Job Mobility Prediction.pdf",
+    "link": "https://dl.acm.org/doi/10.1145/3787466",
     "ccf": ""
   },
   {
@@ -301,6 +338,7 @@
     "venue": "ACM Transactions on Intelligent Systems and Technology (ACM TIST), 2026",
     "year": 2026,
     "pdf": "PDF/Reconciling Cognitive Modeling with Knowledge Forgetting- A Continuous Time-aware General Neural Network Framework.pdf",
+    "link": "https://dl.acm.org/doi/10.1145/3785501",
     "ccf": "C"
   },
   {
@@ -309,6 +347,7 @@
     "venue": "IEEE Transactions on Big Data (IEEE TBD), 2026",
     "year": 2026,
     "pdf": "PDF/A Survey of Large Language Models for Traffic Forecasting-Methods and Applications.pdf",
+    "link": "https://www.computer.org/csdl/journal/bd/5555/01/11415630/2es6J1BHtXG",
     "ccf": "C"
   },
   {
@@ -317,6 +356,7 @@
     "venue": "Information Processing & Management (IPM), 2026",
     "year": 2026,
     "pdf": "PDF/AI-driven skill keyword suggestion for multi-round interviews- A graph-based topic approach.pdf",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S030645732600083X",
     "ccf": "B"
   },
   {
@@ -325,6 +365,7 @@
     "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL), 2026",
     "year": 2026,
     "pdf": "PDF/TransLLM- A Unified Multi-Task Large Language Model for Urban Transportation via Learnable Prompting.pdf",
+    "link": "https://arxiv.org/abs/2508.14782",
     "ccf": "A"
   },
   {
@@ -333,6 +374,7 @@
     "venue": "ACM Transactions on Knowledge Discovery from Data (ACM TKDD), 2026",
     "year": 2026,
     "pdf": "PDF/Graph-based Prompt Learning with Mixture of Experts for Multi-task Corporate Profiling.pdf",
+    "link": "https://dl.acm.org/doi/10.1145/3801152",
     "ccf": "B"
   },
   {
@@ -341,6 +383,7 @@
     "venue": "Proceedings of the Fortieth AAAI Conference on Artificial Intelligence (AAAI), 2026",
     "year": 2026,
     "pdf": "PDF/Enhancing Conversational Recommender Systems with Tree-Structured Knowledge and Pretrained Language Models.pdf",
+    "link": "https://arxiv.org/abs/2511.12579",
     "ccf": "A"
   },
   {
@@ -349,6 +392,7 @@
     "venue": "Proceedings of the Web Conference 2026 (WWW), 2026",
     "year": 2026,
     "pdf": "PDF/ARADD- An Automatic Real-World API Discovery and Deployment Framework for AI Guide Service in Baidu Map.pdf",
+    "link": "https://dl.acm.org/doi/10.1145/3774904.3792817",
     "ccf": "A"
   },
   {
@@ -357,6 +401,7 @@
     "venue": "Computing Research Repository (CoRR), 2026",
     "year": 2026,
     "pdf": "PDF/DeepEra-A Deep Evidence Reranking Agent for Scientific Retrieval-Augmented Generated Question Answering.pdf",
+    "link": "https://arxiv.org/abs/2601.16478",
     "ccf": ""
   },
   {
@@ -365,6 +410,7 @@
     "venue": "Proceedings of the Fortieth AAAI Conference on Artificial Intelligence (AAAI), 2026",
     "year": 2026,
     "pdf": "PDF/Scclubench- Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing.pdf",
+    "link": "https://arxiv.org/abs/2512.02471",
     "ccf": "A"
   },
   {
@@ -373,6 +419,7 @@
     "venue": "Information Fusion, 2026",
     "year": 2026,
     "pdf": "PDF/Deep Cut-informed Graph Embedding and Clustering.pdf",
+    "link": "https://arxiv.org/abs/2503.06635",
     "ccf": ""
   },
   {
@@ -381,6 +428,7 @@
     "venue": "IEEE Transactions on Cybernetics, 2026",
     "year": 2026,
     "pdf": "PDF/Preference-Aware Bayesian Optimization for Interactive Decision Making.pdf",
+    "link": "https://ieeexplore.ieee.org/document/11267384",
     "ccf": "B"
   },
   {
@@ -389,6 +437,7 @@
     "venue": "Theoretical and Applied Mechanics Letters, 2026",
     "year": 2026,
     "pdf": "PDF/Development of a Large Language Model-Driven Intelligent Agent for Predicting Relative Permeability in Oil and Gas Reservoirs.pdf",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2095034926000061",
     "ccf": ""
   },
   {
@@ -397,6 +446,7 @@
     "venue": "International Conference on Database Systems for Advanced Applications (DASFAA), 2026",
     "year": 2026,
     "pdf": "PDF/Zero-Shot Human Mobility Forecasting Via Large Language Model with Hierarchical Reasoning.pdf",
+    "link": "https://arxiv.org/abs/2509.16578",
     "ccf": "B"
   },
   {
@@ -405,6 +455,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026",
     "year": 2026,
     "pdf": "PDF/A Comprehensive Survey on Data Augmentation.pdf",
+    "link": "https://ieeexplore.ieee.org/document/11205970",
     "ccf": "A"
   }
 ]
