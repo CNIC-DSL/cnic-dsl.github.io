@@ -56,9 +56,9 @@ function loadPapers() {
       papers.sort((a, b) => b.year - a.year);
 
       const html = papers.map(paper => {
-        const titleLink = paper.link
-          ? `<a class="title" href="${paper.link}" target="_blank" rel="noopener noreferrer">${paper.title}</a>`
-          : `<span class="title">${paper.title}</span>`;
+        const linkBtn = paper.link
+          ? `<span class="divider">|</span><a class="action link" href="${paper.link}" target="_blank" rel="noopener noreferrer">LINK</a>`
+          : `<span class="divider">|</span><span class="action link disabled">LINK</span>`;
         const ccfLabel = paper.ccf
           ? `<span class="ccf-tag ccf-${paper.ccf.toLowerCase()}">CCF-${paper.ccf}</span>`
           : '';
@@ -66,8 +66,11 @@ function loadPapers() {
           <div class="list-item">
             <div class="item-main">
               <div class="authors">${paper.authors}</div>
-              ${titleLink}
+              <div class="title">${paper.title}</div>
               <div class="meta">${paper.venue}${ccfLabel}</div>
+            </div>
+            <div class="item-actions">
+              ${linkBtn}
             </div>
           </div>`;
       }).join('');

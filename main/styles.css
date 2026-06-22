@@ -1463,19 +1463,12 @@ section {
   margin-bottom:6px;
   word-break: break-word;
 }
-.title,
-a.title{
+.title{
   color:#111827;
   font-weight:800;
   font-size:15px;
   line-height:1.5;
   margin-bottom:6px;
-  text-decoration:none;
-  cursor:pointer;
-}
-a.title:hover{
-  color:#2563eb;
-  text-decoration:underline;
 }
 .meta{
   color:#6b7280;
@@ -1500,6 +1493,12 @@ a.title:hover{
 }
 .action.download{color:#2563eb;}
 .action.download.disabled{
+  color:#c0c4cc;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.action.link{color:#2563eb;}
+.action.link.disabled{
   color:#c0c4cc;
   cursor: not-allowed;
   pointer-events: none;
