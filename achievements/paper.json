@@ -153,15 +153,6 @@
     "ccf": "B"
   },
   {
-    "authors": "Ying Sun, Hengshu Zhu, Hui Xiong",
-    "title": "Toward Faithful Neural Network Intrinsic Interpretation With Shapley Additive Self-Attribution",
-    "venue": "In IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2025",
-    "year": 2025,
-    "pdf": "",
-    "link": "",
-    "ccf": "B"
-  },
-  {
     "authors": "Yihang Cheng, Xiao Hu, Chen Zhu, Hengshu Zhu",
     "title": "Does More Informative Job Title Lead to More Successful Hirings? A Randomized Field Experiment on an Online Labor Market Platform",
     "venue": "In Proceedings of the 58th Hawaii International Conference on System Sciences (HICSS), 2025",
@@ -177,15 +168,6 @@
     "year": 2024,
     "pdf": "",
     "link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e997325c6f4045aa646c81e674076297-Abstract-Datasets_and_Benchmarks_Track.html",
-    "ccf": "A"
-  },
-  {
-    "authors": "Xi Chen, Chuan Qin, Chuyu Fang, Chao Wang, Chen Zhu, Fuzhen Zhuang, Hengshu Zhu, Hui Xiong",
-    "title": "OT4P: Unlocking Effective Orthogonal Group Path for Permutation Relaxation",
-    "venue": "In Proceedings of Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024",
-    "year": 2024,
-    "pdf": "",
-    "link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d3ee2816ae19c9e689c3352397c93a22-Abstract-Conference.html",
     "ccf": "A"
   },
   {
