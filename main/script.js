@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // 添加活动类
-        slides[currentSlide].classList.add('active');
-        indicators[currentSlide].classList.add('active');
+        slides[currentSlide]?.classList.add('active');
+        indicators[currentSlide]?.classList.add('active');
     }
 
     function nextSlide() {
@@ -70,8 +70,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function startSlideShow() {
+    clearInterval(slideInterval);
+
+    // 顶部只有一张横幅时不需要轮播
+    if (slides.length > 1) {
         slideInterval = setInterval(nextSlide, 5000);
     }
+}
 
     function stopSlideShow() {
         clearInterval(slideInterval);
@@ -358,4 +363,70 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+});
+// 实验室照片墙
+document.addEventListener('DOMContentLoaded', async function () {
+    const slider = document.querySelector('.intro-slider');
+    const track = slider?.querySelector('.intro-slider-track');
+    if (!track) return;
+
+    // 删除原来手动添加的重复图片
+    track.querySelectorAll('img[aria-hidden="true"]').forEach(img => {
+        img.remove();
+    });
+
+    const images = [...track.querySelectorAll('.intro-slide-image')];
+    if (!images.length) return;
+
+    let inView = false;
+
+    function updatePlayback() {
+        track.classList.toggle(
+            'is-playing',
+            inView && !document.hidden
+        );
+    }
+
+    // 至少 20% 的轮播区域进入屏幕时才播放
+    const observer = new IntersectionObserver(([entry]) => {
+        inView = entry.isIntersecting && entry.intersectionRatio >= 0.2;
+        updatePlayback();
+    }, { threshold: [0, 0.2] });
+
+    observer.observe(slider);
+    document.addEventListener('visibilitychange', updatePlayback);
+
+    // 等待图片加载、解码，期间第一张保持在起点
+    await Promise.all(images.map(async img => {
+        img.loading = 'eager';
+
+        if (!img.complete) {
+            await new Promise(resolve => {
+                img.addEventListener('load', resolve, { once: true });
+                img.addEventListener('error', resolve, { once: true });
+            });
+        }
+
+        if (img.naturalWidth > 0 && img.decode) {
+            await img.decode().catch(() => {});
+        }
+    }));
+
+    // 按完全相同的顺序复制一组，保证循环衔接
+    const fragment = document.createDocumentFragment();
+
+    images.forEach(img => {
+        const copy = img.cloneNode(true);
+        copy.removeAttribute('id');
+        copy.alt = '';
+        copy.setAttribute('aria-hidden', 'true');
+        fragment.appendChild(copy);
+    });
+
+    track.appendChild(fragment);
+
+    // 每移动一个图片位置用 8 秒：14 张就是 112 秒
+    track.style.setProperty('--intro-duration', `${images.length * 8}s`);
+    track.classList.add('is-ready');
+    updatePlayback();
 });
