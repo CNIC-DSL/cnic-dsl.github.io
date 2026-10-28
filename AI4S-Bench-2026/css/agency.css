@@ -1069,10 +1069,10 @@ body
 /* Workshop agenda */
 #agenda { color: #333; scroll-margin-top: 90px; }
 #agenda .section-heading { text-align: left; margin-bottom: 20px; }
-#agenda .agenda-date { text-align: left; font-size: 20px; font-weight: 600; margin-bottom: 6px; }
-#agenda .agenda-timezone { text-align: left; color: #666; margin-bottom: 36px; }
+#agenda .agenda-date { text-align: left; font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+#agenda .agenda-timezone { text-align: left; font-size: 16px; color: #666; margin-bottom: 36px; }
 #agenda .agenda-program { width: 100%; text-align: left; }
-#agenda h3 { color: #2c5282; font-size: 22px; margin: 32px 0 12px; }
+#agenda h3 { color: #2c5282; font-size: 24px; margin: 32px 0 12px; }
 #agenda .agenda-list { list-style: none; padding: 0; margin: 0; }
 #agenda .agenda-list li {
   display: grid;
@@ -1081,12 +1081,11 @@ body
   padding: 16px 0;
   border-bottom: 1px solid #e2e8f0;
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.75;
 }
 #agenda .agenda-time { white-space: nowrap; font-weight: 700; color: #2d3748; font-variant-numeric: tabular-nums; }
-#agenda .agenda-speaker { display: block; color: #666; font-size: 15px; margin-top: 4px; }
+#agenda .agenda-speaker { display: block; color: #666; font-size: 16px; margin-top: 4px; }
 #agenda .agenda-closing { margin-top: 20px; }
 @media (max-width: 600px) {
   #agenda .agenda-list li { grid-template-columns: minmax(0, 1fr); gap: 4px; }
-  #agenda .agenda-date { font-size: 18px; }
 }
