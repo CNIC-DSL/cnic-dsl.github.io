@@ -499,49 +499,56 @@
           margin: 0 auto;
           padding: 0 15px;
         }
-        #organization .organizer-group { margin-top: 36px; }
+        #organization .organizer-group { margin-top: 32px; }
+        #organization .organizer-group + .organizer-group { margin-top: 44px; }
         #organization .organizer-group-heading {
+          display: flex;
+          align-items: center;
+          gap: 20px;
           font-size: 24px;
-          color: #2c5282;
-          margin: 0 0 30px;
+          color: #333;
+          margin: 0 0 28px;
           text-align: left;
         }
-        .organizers-grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 30px;
-          width: 100%;
-          max-width: 900px;
-          margin: 0 auto;
-          padding: 0 40px;
+        #organization .organizer-group-heading::after {
+          content: "";
+          flex: 1;
+          height: 1px;
+          background: #e2e8f0;
         }
-        .organizers-grid .team-member { text-align: center; }
-        .organizers-grid .team-member a,
-        .organizers-grid .team-member a:hover,
-        .organizers-grid .team-member a:focus,
-        .organizers-grid .team-member a:active {
+        #organization .organizers-grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 32px;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        #organization .team-member { text-align: center; margin: 0; min-width: 0; }
+        #organization .team-member a,
+        #organization .team-member a:hover,
+        #organization .team-member a:focus,
+        #organization .team-member a:active {
           color: inherit;
           text-decoration: none;
         }
-        .organizers-grid .team-member img {
+        #organization .team-member img {
           width: 150px;
           height: 150px;
-          min-width: 150px;
-          min-height: 150px;
           margin: 0 auto;
           background: #f0f0f0;
           object-fit: cover;
           border-radius: 50%;
         }
-        @media (max-width: 600px) {
-          .organizers-grid {
-            grid-template-columns: repeat(2, 1fr);
-            padding: 0 20px;
-            gap: 20px;
-          }
+        #organization .team-member h4 { font-size: 18px; margin: 16px 0 6px; line-height: 1.4; }
+        #organization .team-member p { font-size: 16px; line-height: 1.6; max-width: 280px; margin: 0 auto; color: #666; }
+        @media (max-width: 767px) {
+          #organization .organizers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; }
+          #organization .organizer-group-heading { font-size: 22px; }
         }
-        .img-circle { border-radius: 50%; }
-        #organization .col-sm-2 { width: auto; padding: 0; }
+        @media (max-width: 380px) {
+          #organization .organizers-grid { grid-template-columns: minmax(0, 1fr); }
+        }
       </style>
       <div class="container">
         <h2 id="organizers-heading" class="section-heading">Workshop Organizers</h2>
